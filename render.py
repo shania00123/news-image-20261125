@@ -185,7 +185,7 @@ def draw_number_strip(draw):
         ("3.8%", "US PCE Y/Y"),
         ("189k", "US JOBLESS CLAIMS"),
         ("4.9%", "AUSTRALIA CPI"),
-        ("145", "DRONES DOWNED (MOSCOW)"),
+        ("145", "DRONES DOWNED (SAMARA)"),
         ("03:56", "TIANGONG DOCK UTC"),
     ]
     cell_w = (box[2] - box[0]) / len(stats)
@@ -380,10 +380,9 @@ def draw_timeline(draw):
         (3.93, "03:56 docking", False),
         (13.5, "13:30 data", False),
         (14.0, "14:00 chess", True),
-        (15.0, "15:00 Iowa", False),
     ]
     for hour, label, above in events:
-        x = start_x + (hour / 15.0) * (end_x - start_x)
+        x = start_x + (hour / 14.17) * (end_x - start_x)
         scheduled = hour >= 15.0
         if scheduled:
             draw.ellipse((x - 7, line_y - 7, x + 7, line_y + 7), outline=RED, width=3, fill=PAPER)
