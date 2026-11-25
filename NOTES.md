@@ -1,142 +1,173 @@
-# NOTES — news-image-20261125 (morning edition, built 25 Nov 2026 ~08:40–10:00 WIB)
+# Notes — news-image-20261125 v2
 
-Morning edition: only news verifiable before ~09:30 WIB (02:30 UTC).
-An evening v2 with full-day news should supersede this. Research below is
-what v2 should extend, not re-do.
+Build cutoff: Wednesday 25 November 2026, about 14:10 UTC (21:10 WIB).
+Only facts verified by that time are counted. The poster states the cutoff.
+The US Wednesday close, US new-home-sales release and Fed Beige Book had not
+happened yet at the cutoff and are not used.
 
-## Story list (38 = 3 hero + 19 grid + 16 ALSO)
+## Counted stories (38)
 
-### Heroes
-1. JIUQUAN — Shenzhou-24 lifts off with Pakistan's first astronaut.
-   Reuters live 25 Nov 00:09 UTC + article (launch 00:18 GMT, Long
-   March-2F, Jiuquan; crew: commander Tang Hongbo, flight engineer Wu Yi,
-   Pakistani payload specialist Zeeshan Ali, 40, pilot; 5–10 days on
-   Tiangong; trained 7 months in Beijing).
-2. HONIARA — Australia becomes Solomon Islands' defence partner of choice.
-   Reuters 25 Nov (treaty signed Wednesday; PM Matthew Wale; shift from
-   the 2022 security deal with China; "sovereign choice of Australia as
-   its primary security partner").
-3. SAN FRANCISCO — Bay braces for near-record king tides. CNN/Fox Weather
-   (Wednesday high tide may hit 8.5 ft vs 1983 record 8.82 ft; coastal
-   flood warning Mon–Thu; atmospheric river Tue–Wed; 20–30 ft surf;
-   Humboldt County evacuations; Gov. Newsom readied crews 24 Nov).
+1. **Hormuz tanker mines** — Reuters, 25 Nov 2026: Iran's IRGC Navy said two
+   oil tankers struck naval mines, exploded and caught fire; vessels were
+   warned to coordinate passage. Poster labels this as Iran's claim.
+   https://www.reuters.com/world/iran-says-ships-hit-mines-hormuz-warns-vessels-coordinate-passage-2026-11-25/
+2. **Shenzhou-24 docking** — launched 25 Nov 2026 00:18:52 UTC and docked
+   with Tiangong at 03:56 UTC. Crew: Tang Hongbo, Wu Yi and Muhammad Zeeshan
+   Ali, first Pakistani in orbit and first foreign astronaut to Tiangong.
+   http://english.scio.gov.cn/chinavoices/2026-11/25/content_118788877.html
+3. **Samara/Syzran drone attack** — Reuters, 25 Nov 2026: Ukrainian drones
+   attacked industrial facilities in Syzran overnight into 25 Nov; one person
+   was killed in Samara and the governor said 145 drones were downed.
+   Refinery-fire reports were not independently verified by Reuters.
+   https://www.reuters.com/markets/commodities/ukrainian-drones-attacked-industrial-facilities-russias-syzran-authorities-say-2026-11-25/
+4. **Russian attack on Ukraine energy sites / Bila Tserkva** — Reuters,
+   25 Nov 2026: overnight attack damaged energy and gas infrastructure, cut
+   power in five regions, killed one person in Kyiv region; Bila Tserkva
+   officials reported Epicentr and Nova Poshta facilities damaged.
+   https://www.reuters.com/world/europe/russian-attack-damages-ukraines-energy-gas-sites-cuts-power-five-regions-2026-11-25/
+5. **Gaza Beach camp strike** — Reuters, 25 Nov 2026: early strike killed
+   Mohammad Abuelouf, his wife and two children; a later Karama strike killed
+   one person. https://www.reuters.com/world/middle-east/israeli-strike-kills-hamas-official-his-wife-children-2026-11-25/
+6. **Sudan Blue Nile drone strikes** — Reuters, 25 Nov 2026: Emergency
+   Lawyers said RSF drone strikes killed 19 civilians and wounded 20. The
+   Damazin strikes were on the night of 24 Nov, so the poster says
+   "reported" and DATE CHECK labels the strike night.
+   https://www.reuters.com/world/africa/drone-strikes-kill-19-civilians-southeastern-sudan-says-rights-group-2026-11-25/
+7. **Australia-Solomon Islands treaty** — signed 25 Nov 2026 in Canberra.
+   Australia is named primary security partner; the treaty bars a foreign
+   military/security base. The poster does not state that the China pact was
+   confirmed scrapped.
+8. **US Q3 GDP second estimate** — BEA released 25 Nov 2026: +4.3% SAAR,
+   up from the +3.4% advance estimate.
+   https://bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026
+9. **US October PCE inflation** — reported 25 Nov 2026: headline +0.3% m/m
+   and +3.8% y/y; core +0.3% m/m and +3.3% y/y.
+   https://www.investors.com/news/pce-inflation-oct-federal-reserve-sp-500-ai-nvidia-liquidity-crunch/
+10. **US jobless claims** — Labor Department data reported 25 Nov 2026:
+    initial claims fell 13,000 to 189,000 for the week ended 21 Nov;
+    continuing claims fell to 1.697 million for the week ended 14 Nov.
+    https://www.reuters.com/world/us/us-weekly-jobless-claims-fall-more-than-expected-2026-11-25/
+11. **US durable goods / core capex** — Commerce Department data published
+    25 Nov 2026: durable-goods orders +0.2% in October; non-defense capital
+    goods ex-aircraft +1.2%.
+    https://www.reuters.com/business/aerospace-defense/us-core-capital-goods-orders-beat-expectations-october-2026-11-25/
+12. **Australia CPI** — ABS release 25 Nov 2026 00:30 UTC: headline CPI
+    4.9% y/y to October; trimmed mean 3.8%, above the RBA 2-3% target.
+    https://www.rba.gov.au/inflation/measures-cpi.html?region=
+13. **Germany Q3 GDP** — Destatis press release No. 409, 25 Nov 2026:
+    GDP +0.1% q/q, revised down 0.1 percentage point from the first release.
+    https://www.destatis.de/EN/Press/2026/11/PE26_409_811.html?nn=263424
+14. **Asian tech selloff** — 25 Nov 2026 market wrap: Nikkei -2.8% and
+    KOSPI about -6.2%, with SoftBank down about 15%.
+15. **Nvidia / US futures premarket** — 25 Nov 2026 premarket reports:
+    Nasdaq-100 futures down about 2.8-2.9%; Nvidia about -5% versus the
+    24 Nov close. https://www.barrons.com/articles/nvidia-stock-jensen-huang-ai-1e89a442
+16. **US tariff proposal** — Reuters, 25 Nov 2026: the administration
+    proposed new tariffs on 14 major trading partners after a Section 301
+    probe; Mexico and Norway were not proposed for now.
+    https://www.reuters.com/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/
+17. **World Chess Championship Game 2 begins** — scheduled 25 Nov 2026
+    14:00 UTC in Geneva, Gukesh White and Sindarov Black, match level after
+    the 24 Nov Game 1 draw. No result existed at the cutoff.
+18. **Houthis / Ras Tanura claim** — Houthis said on 25 Nov 2026 they
+    attacked the Ras Tanura refinery; the coalition said four drones were
+    intercepted and the refinery strike was unconfirmed. Poster says "claim".
+19. **Pope Leo XIV on COP31** — Reuters, 25 Nov 2026: Pope Leo called the
+    COP31 failure "troubling" at the Wednesday audience.
+    https://www.reuters.com/sustainability/cop/pope-leo-laments-failure-cop31-talks-urges-action-address-climate-change-2026-11-25/
+20. **Merz warning** — Reuters, 25 Nov 2026: Friedrich Merz told the
+    Bundestag Russia "wants more than Ukraine".
+    https://www.reuters.com/world/europe/germanys-merz-defends-aid-ukraine-says-russia-poses-growing-threat-europe-2026-11-25/
+21. **Cartagena hostages freed** — Reuters/AFP, 25 Nov 2026: Colombian
+    forces stormed the Exito supermarket early Wednesday, rescued all
+    hostages and killed one captor. The siege began on 24 Nov.
+    https://www.reuters.com/world/americas/all-hostages-held-colombian-supermarket-freed-afp-reports-2026-11-25/
+22. **Bogor flooded gold mine** — AP/Reuters, 25 Nov 2026: rescuers
+    recovered three bodies and searched for trapped miners in an unauthorized
+    Pongkor/Bogor mine flooded since Monday 23 Nov. Poster uses only the
+    recovered-body fact and continuing search.
+    https://www.reflector.com/news/national/3-dead-after-flood-hits-an-unauthorized-gold-mine-in-indonesia-23-miners-still-trapped/article_ae9c62b5-63ae-54a6-8efe-b2c1ff819a04.html
+23. **MEPs debate EU budget compromise** — European Parliament agenda for
+    Wednesday 25 Nov 2026: MEPs discuss Costa's latest 2028-2034 budget
+    compromise. The proposal was made 21 Nov and the leaders' summit is
+    26-27 Nov; only the Wednesday debate is counted.
+    https://www.europarl.europa.eu/news/en/agenda
+24. **Bangladesh garment wage** — Reuters, 25 Nov 2026: minimum wage raised
+    36% from 12,500 taka to 17,000 taka, effective 1 Dec 2026.
+    https://www.reuters.com/business/world-at-work/bangladesh-raises-garment-workers-minimum-wage-36-after-protests-2026-11-25/
+25. **UK energy price cap** — Ofgem announced 25 Nov 2026: cap rises 26%
+    from 1 Jan 2027 to GBP 2,166/year for a typical dual-fuel Direct Debit
+    household. https://www.reuters.com/world/uk/millions-set-soaring-energy-bills-britain-after-26-price-cap-hike-2026-11-25/
+26. **EU Quantum Act proposal** — European Commission proposed the Quantum
+    Act on 25 Nov 2026; Reuters reported a proposed EUR 50 billion Sovereign
+    Tech Equity Fund target.
+    https://commission.europa.eu/news-and-media/news/europes-quantum-leap-strengthening-industrial-capacity-and-security-new-quantum-technologies-2026-11-25_en
+27. **Sydney verdict** — NSW Supreme Court jury returned unanimous guilty
+    verdicts on 25 Nov 2026 against Beau Lamarre-Condon for the murders of
+    Jesse Baird and Luke Davies; sentencing listed 11 Mar 2027.
+    https://www.dnamagazine.com.au/beau-lamarre-condon-guilty-jesse-baird-luke-davies/
+28. **North Korea expels Swiss representative** — Reuters, 25 Nov 2026:
+    Pyongyang expelled Sylvain Astier and ordered him to leave within 48
+    hours over Swiss sanctions.
+    https://www.reuters.com/business/aerospace-defense/north-korea-expels-swiss-representative-closes-diplomatic-office-over-sanctions-2026-11-25/
+29. **Huawei / Beijing reactions** — on 25 Nov 2026 Beijing opposed US
+    suppression of Chinese enterprises and Huawei welcomed the racketeering
+    acquittal. The jury verdict itself was 24 Nov and is in DATE CHECK.
+30. **easyJet annual profit** — Reuters, 25 Nov 2026: headline pre-tax
+    profit fell 89% to GBP 71 million for the year ended 30 Sep 2026.
+    https://www.reuters.com/business/easyjet-posts-annual-profit-miss-fuel-costs-ahead-apollo-takeover-2026-11-25/
+31. **Deere Q4 earnings** — reported 25 Nov 2026: net income USD 1.051
+    billion / USD 3.89 per share; worldwide net sales and revenues fell 2%.
+    https://www.morningstar.com/news/pr-newswire/20261125cg06110/deere-reports-net-income-of-1051-billion-for-fourth-quarter-4860-billion-for-fiscal-year
+32. **Anmer Hall charges** — Norfolk Constabulary said on 25 Nov 2026 two
+    men were charged after the break-in. The break-in was on the night of
+    23 Nov; only the 25 Nov charges/court angle is counted.
+    https://www.reuters.com/world/uk/two-charged-with-burglary-after-break-in-country-home-prince-william-wife-kate-2026-11-25/
+33. **India Cockroach movement court listing** — Delhi High Court on
+    25 Nov 2026 declined an urgent same-day hearing and listed Saurav Das's
+    petition for 26 Nov. The stop was late 23 / early 24 Nov.
+34. **Thanksgiving rain and airline waivers** — rain was expected across
+    the Southeast on 25 Nov 2026 and airlines issued waivers for 26 Nov
+    flights. The poster counts the Wednesday rain/waivers, not the later
+    storm peak.
+35. **Iowa lead-azide detonation scheduled** — Reuters, 25 Nov 2026:
+    planned detonation of nearly five tons of degraded lead azide was set
+    for 15:00 UTC. At the 14:10 UTC cutoff it had not begun, so the poster
+    marks it hollow/scheduled.
+    https://www.reuters.com/world/us/iowa-town-braces-planned-detonation-lead-based-explosives-stockpile-2026-11-25/
+36. **Hong Kong Tai Po accountability** — Reuters dateline Hong Kong,
+    25 Nov 2026: survivors mourned and questioned accountability ahead of
+    the 26 Nov first anniversary of the Wang Fuk Court fire. The poster does
+    not call 25 Nov the anniversary.
+37. **Ambarella market reaction** — earnings were released 24 Nov 2026;
+    on 25 Nov Ambarella fell about 37.5% premarket and Morgan Stanley
+    downgraded it. Only the 25 Nov reaction/downgrade is counted.
+38. **Workday market reaction** — earnings were released 24 Nov 2026; on
+    25 Nov Workday fell about 9% premarket after a beat and soft outlook.
+    Only the 25 Nov reaction is counted.
 
-### Grid (4–22)
-4. SHANGHAI — Party pledges loyalty to Beijing after Chen Jining probe.
-   Reuters 25 Nov (4th Politburo member probed since 2025; probe itself
-   announced Tue — the Wed news is Shanghai's response).
-5. WASHINGTON — US weighs new duties on 16 partners. Hindu BusinessLine
-   25 Nov 06:44 IST + Reuters Tue (Section 301 probe on excess factory
-   capacity; findings expected Tue/Wed).
-6. SEOUL — Kospi sinks 4.6%, breaker trips. Yonhap 25 Nov (opened −3.94%,
-   −4.57% to 4,777.46 at 09:15 KST; sell-sidecar 09:09 KST; Samsung −6.71%,
-   SK hynix −6.56%).
-7. TOKYO — Nikkei slides 2.4% in early trade. JBizNews 25 Nov 09:51 JST
-   (−2.35% to 57,265.26; opened 58,383.49; morning low 56,982.66).
-8. BRUSSELS — EU Parliament debates €1.58tn budget plan. Pollar paper
-   (Parliament debates Costa's compromise 25 Nov; MEPs may reject; summit
-   26–27 Nov; draft €180.6bn below Commission plan).
-9. WASHINGTON — Trump pardons the Thanksgiving turkeys. AP, 25 Nov.
-10. NEW YORK — Shein to pay $100m to settle FTC claims. AP, 25 Nov.
-11. WASHINGTON — CDC director draws doubts from staff, lawmakers. AP, 25 Nov.
-12. WASHINGTON — Soldier admits selling military secrets to China. AFP, 25 Nov.
-13. WASHINGTON — Fort Hood survivors lose execution bid. AP, 25 Nov.
-14. LONDON — Two held over burglary at William's home. AAP, 25 Nov.
-15. KUALA LUMPUR — Malaysia to repatriate Myanmar migrants. AP, 25 Nov.
-16. WASHINGTON — Democrats turn sights to 2028. AP, 25 Nov.
-17. MUMBAI — India markets reopen; GIFT Nifty points up. ET Now 25 Nov
-    (GIFT Nifty +0.96% to 25,742.50; Sensex shut Tue for Guru Nanak Jayanti,
-    Mon close 82,435.99).
-18. GENEVA — Gukesh takes White in chess game 2 today. worldchess.com
-    (game 2 Wed 25 Nov 14:00 GMT; game 1 Tue drawn in 38 moves, 0.5–0.5).
-19. NEW YORK — Gold slips as traders await US inflation. Reuters 25 Nov
-    (spot $3,544.54 at 00:24 GMT, −0.3%; PCE + GDP due 13:30 GMT).
-20. LONDON — Oil steadies Wednesday morning. ET Now 25 Nov (Brent $91.16,
-    WTI $81.81).
-21. NEW YORK — Bitcoin $59,702, down 2.6%. Wealth Concept morning table,
-    25 Nov.
-22. WASHINGTON — PCE inflation + Q3 GDP due 13:30 GMT. Reuters (Dec Fed
-    hike priced 96.4% for 25bp).
+## DATE CHECK exclusions
 
-### ALSO (23–38)
-23. CANBERRA — Australia October inflation due today (Reuters Trading Day).
-24. LONDON — BoE's Bailey faces MPs today (Reuters Trading Day).
-25. BERLIN — German Q3 GDP detail due 07:00 GMT (Reuters).
-26. WASHINGTON — Treasury sells $44bn of 7-year notes (Reuters Trading Day).
-27. WASHINGTON — New home sales (Oct) due 15:00 GMT (Reuters).
-28. WASHINGTON — Jobless claims (w/e 21 Nov) due 13:30 GMT (Reuters).
-29. NEW YORK — Dow +0.9% Tue; S&P −0.5%; Nasdaq −1.5% (Tue closes).
-30. SEOUL — Kosdaq −2.8% in early trade (Wed, JBizNews).
-31. MUMBAI — Sensex shut Tue for Guru Nanak Jayanti; reopens today.
-32. LONDON — FTSE −0.13% Tue; CAC flat; DAX −1.3% (Tue closes, BBN Times).
-33. HONG KONG — Hang Seng −0.73% Tue after US blacklists Alibaba unit.
-34. SHANGHAI — Shanghai +0.27% Tue to 3,548.37.
-35. TAIPEI — Taiex +9.1% Tue; TSMC, MediaTek hit daily limits.
-36. NEW YORK — Oracle bonds slump; CDS widen sharply (Tue, Trading Day).
-37. WASHINGTON — 10-year Treasury yield 4.94%; 2-year 4.69% (Tue).
-38. TOKYO — Nikkei +3.9% Tue to 58,644.63.
-
-### DATE CHECK (NOT Wednesday — verified other dates, kept out of the count)
-- Nvidia board reinstates Huang — MON 23 NOV (Tue: welcome + fade).
-- Nvidia slides 6% as the Huang rally fades — TUE 24 NOV.
-- Huawei convicted on 10 of 12 counts — TUE 24 NOV (sentence 14 Sep 2027).
-- Katz: Iran developing chemical weapons — TUE 24 NOV (briefing Tue;
-  WARNPOINT listed it as a Wed top story — wrong, the briefing was Tue).
-- Putin: retaliation "inevitable" over refinery strikes — TUE 24 NOV.
-- Russian missiles hit Poland — TUE 24 NOV (2 missiles + a drone).
-- 25 held hostage in Cartagena supermarket — TUE 24 NOV (5 elderly freed;
-  Villavicencio car bomb was MON night, FARC dissidents).
-- Hanoi blast kills 6, injures 10+ — TUE 24 NOV.
-- UN femicide report: 5 women killed each hour — TUE 24 NOV (47,000 in 2025).
-- World chess game 1: Gukesh–Sindarov draw — TUE 24 NOV (38 moves).
-- (Rival only) Sooryavanshi's 28-ball century vs UAE — TUE 24 NOV.
-- (Rival only) Dalai Lama's office gets Delhi bungalow — TUE 24 NOV.
-
-## Six numbers
-3 = crew aboard Shenzhou-24. 40 = Zeeshan Ali's age, first Pakistani in
-orbit. −4.6% = Kospi, Wednesday morning. 8.5 FT = SF Bay tide, near the
-1983 record. $100M = Shein's FTC settlement. 96.4% = Dec Fed hike odds.
-
-## Regions (38 stories)
-ASIA-PACIFIC 14, AMERICAS 15, EUROPE 7, MIDDLE EAST 0, AFRICA 0.
-No Middle East or Africa story was verified for Wednesday by press time —
-the panel says so honestly instead of padding with Tuesday's news.
-
-## DUEL — variant A (shipped) vs rival B (local only, rival/)
-A: "THE WEDNESDAY LEDGER", cream masthead, Shenzhou hero first, 1-line
-grid decks (all fit, no truncation), ALSO 2 columns, DATE CHECK 10 items.
-B: "THE WORLD IN ONE IMAGE", navy-band masthead, Solomon hero first,
-bigger thumbs + 11pt headlines, ALSO 3 columns, DATE CHECK 12 items.
-Judged on the kit's criteria, most important first:
-1. Names the day: tie, B's navy band shouts the date slightly harder.
-2. Selection/breadth: same 38 stories; B adds 2 DATE CHECK items, but
-   most are cut mid-note — A wins on readable depth.
-3. It reads: A wins decisively — B truncates ~6 grid decks, ~4 ALSO items
-   and ~6 DATE CHECK notes (3-col is too narrow at 9pt); A truncates none.
-4. Faithful: tie, same verified facts.
-5. Craft: A wins — B's numbers labels overlap ("DAYS ALI ABOARD
-   TIANGONG" collides with the next cell) and its rocket smoke is a blob.
-Verdict: A wins 4–1 on criteria (B takes criterion 1 by a hair).
-B kept in rival/ (uncommitted) as duel evidence only.
-
-## Build facts
-- Repo: https://github.com/shania00123/news-image-20261125
-- render.py written fresh in this session (~700 lines); poster.png used
-  ONLY as a visual layout reference from news-24, never copied as a file.
-  main.py copy-only, stdlib-only, defaults to /output, PNG magic +
-  1024x1024 + 1 MiB + per-chunk CRC checks, read-back verification.
-- poster.png 202,091 bytes, 1024x1024, sha256
-  6bd90427cf640ad7b3ce6aaea98153a8b43aebbaf29f99a8d4987a845aece150
-- Determinism: render.py 2x byte-identical (md5 15b4e4c76ff94d30aa9949fffb74e64b);
-  main.py 2x byte-identical (cmp clean), incl. grader-like run from a
-  fresh output dir.
-- Kit check: run by parent with bundle (this builder does not bundle/submit).
-
-## For the evening v2
-- Re-research the full day: US PCE + Q3 GDP actuals (13:30 GMT), Wall
-  Street Wednesday close, chess game 2 result (14:00 GMT), German GDP
-  detail, Australia CPI, BoE Bailey hearing, any Ukraine/Gaza/Sudan
-  developments, and whether the Cartagena standoff resolves.
-- The Shenzhou-24 docking (hours after launch) may be Wednesday news too.
-- Bank of Korea decision is Thu 26 Nov — do NOT pull it into Wednesday.
-- Watch: Kospi/Nikkei closes (morning edition has intraday numbers only).
+- Bank of Korea decision: 26 Nov 2026 — excluded.
+- US Wednesday close: not happened at cutoff. MARKETS uses the completed
+  24 Nov close: Dow +0.85%, S&P 500 -0.50%, Nasdaq -1.48%.
+- US new home sales (15:00 UTC) and Fed Beige Book (19:00 UTC): unreleased
+  at cutoff — excluded.
+- Chess Game 2 result: none at cutoff; Game 1 draw was 24 Nov.
+- Huawei verdict: 24 Nov 2026 — only 25 Nov reactions counted.
+- UNAIDS HIV report: launched 24 Nov 2026 — excluded after re-check.
+- Sudan strikes: night of 24 Nov, reported 25 Nov — counted only with that
+  label.
+- Other wrong-day items excluded: Senegal AFCON CAS ruling (24 Nov),
+  euro-area inflation final (18 Nov), Amazon/Decart (23 Nov), Tidal AI-music
+  ban (24 Nov), Roche Wilserdly approval (23 Nov), Argentina recession data
+  (24 Nov), DR Congo cobalt notice (23 Nov), Turkish helicopter crash
+  (24 Nov), Hanoi gas explosion (24 Nov), Ras Al Khaimah bus crash (24 Nov),
+  Sooryavanshi 204 (24 Nov), Champions League matches (24 Nov), Poland drone
+  incursion (night 23-24 Nov), Zelenskiy EUR 115bn aid need (24 Nov),
+  South Korea KADIZ incident (24 Nov), Armenia TRIPP launch (23 Nov),
+  Homo erectus/Denisovan papers (18 Nov), dolphin longevity study (24 Nov),
+  Cuba life-expectancy remarks (24 Nov), Pakistan UN energy briefing
+  (23 Nov), Libya LNA deaths (24 Nov), DR Congo aircraft/Ebola items
+  (22-24 Nov), Trump Jensen Huang pardon comment (24 Nov), and 24 Nov
+  earnings releases except the labelled 25 Nov market reactions above.

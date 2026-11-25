@@ -1,79 +1,50 @@
 #!/usr/bin/env python3
-"""news-image-20261125 — entrypoint.
+"""Copy the shipped poster to the grader output path.
 
-Copies the front page this repository ships (poster.png, drawn by
-render.py) to the output directory as entry.png. Standard library only,
-no network, no randomness: two runs write identical bytes.
-
-The output directory is $MAKEFUN_OUTPUT_DIR when set, else /output.
-It is never a relative folder: the grader reads /output/entry.png.
+Standard library only. The output directory is MAKEFUN_OUTPUT_DIR when set,
+otherwise the first command-line argument when given, otherwise /output.
 """
 
-import binascii
 import os
 import struct
 import sys
-
-HERE = os.path.dirname(os.path.abspath(__file__))
-POSTER = os.path.join(HERE, "poster.png")
-MAX_BYTES = 1048576
-PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
+from pathlib import Path
 
 
-def load_poster():
-    """Read poster.png and check it is a whole 1024x1024 PNG."""
-    with open(POSTER, "rb") as fh:
-        data = fh.read()
+PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
+MAX_BYTES = 1024 * 1024
+EXPECTED_SIZE = (1024, 1024)
+
+
+def output_dir() -> Path:
+    env_value = os.environ.get("MAKEFUN_OUTPUT_DIR")
+    if env_value:
+        return Path(env_value)
+    if len(sys.argv) > 1:
+        return Path(sys.argv[1])
+    return Path("/output")
+
+
+def checked_png_bytes(path: Path) -> bytes:
+    data = path.read_bytes()
     if len(data) > MAX_BYTES:
-        raise ValueError("poster.png is %d bytes, over the 1 MiB limit"
-                         % len(data))
-    if data[:8] != PNG_MAGIC:
+        raise ValueError("poster.png exceeds the 1 MiB limit")
+    if not data.startswith(PNG_SIGNATURE):
         raise ValueError("poster.png is not a PNG")
+    if len(data) < 24 or data[12:16] != b"IHDR":
+        raise ValueError("poster.png has no IHDR chunk")
     width, height = struct.unpack(">II", data[16:24])
-    if (width, height) != (1024, 1024):
-        raise ValueError("poster.png is %dx%d, expected 1024x1024"
-                         % (width, height))
-    # Walk every PNG chunk and verify its CRC, so a truncated or
-    # corrupted poster is caught here instead of at the gate.
-    pos = 8
-    seen_iend = False
-    while pos + 8 <= len(data):
-        length = struct.unpack(">I", data[pos:pos + 4])[0]
-        ctype = data[pos + 4:pos + 8]
-        end = pos + 12 + length
-        if end > len(data):
-            raise ValueError("poster.png ends inside chunk %r" % ctype)
-        stored = struct.unpack(">I", data[end - 4:end])[0]
-        actual = binascii.crc32(ctype + data[pos + 8:end - 4]) & 0xFFFFFFFF
-        if stored != actual:
-            raise ValueError("poster.png chunk %r fails its CRC" % ctype)
-        if ctype == b"IEND":
-            seen_iend = True
-            if end != len(data):
-                raise ValueError("poster.png has trailing bytes after IEND")
-            break
-        pos = end
-    if not seen_iend:
-        raise ValueError("poster.png has no IEND chunk")
+    if (width, height) != EXPECTED_SIZE:
+        raise ValueError(f"poster.png is {width}x{height}, expected 1024x1024")
     return data
 
 
-def main():
-    try:
-        data = load_poster()
-    except (OSError, ValueError) as exc:
-        print(str(exc), file=sys.stderr)
-        return 1
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
-    os.makedirs(out_dir, exist_ok=True)
-    target = os.path.join(out_dir, "entry.png")
-    with open(target, "wb") as fh:
-        fh.write(data)
-    with open(target, "rb") as fh:
-        if fh.read() != data:
-            print("read-back mismatch on %s" % target, file=sys.stderr)
-            return 1
-    print("wrote %s (%d bytes)" % (target, len(data)))
+def main() -> int:
+    source = Path(__file__).resolve().with_name("poster.png")
+    data = checked_png_bytes(source)
+    destination_dir = output_dir()
+    destination_dir.mkdir(parents=True, exist_ok=True)
+    (destination_dir / "entry.png").write_bytes(data)
     return 0
 
 
